@@ -1,0 +1,221 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    position: absolute;
+    top: 0px;
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.7);
+padding-left: 40px;
+padding-top: 20px;
+}
+#nav-ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    position: relative;
+    left: 30%;
+    gap: 60px;
+    top: 15px;
+}
+#nav-h1{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: green;
+    cursor: pointer;
+}
+#contact-h1{
+    color: green;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 150px;
+}
+#text{
+    width: 1300px;
+    position: relative;
+    left: 10%;
+    top: 30px;
+    letter-spacing: 1px;
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+}
+#contact-flex{
+    width: 1200px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    gap: 150px;
+    left: 250px;
+}
+#one{
+    background-color: white;
+    width:400;
+    height: 250px;
+    border-right: 2px solid green;
+}
+#two{
+    background-color: white;
+    width:400;
+    height: 250px;
+    border-right: 2px solid green;
+    padding-right: 100px;
+    
+}
+#three{
+    background-color: white;
+    width:400;
+    height: 250px;
+}
+i{
+    color: rgb(38, 180, 38);
+    font-size: 50px;
+    cursor: pointer;
+}
+i:hover{
+    font-size: 65px;
+}
+    #address{
+        font-size: 30px;
+        color: gray;
+        position: relative;
+        right: 45px;
+       top: 30px;
+    }
+    #phone{
+        font-size: 30px;
+        color: gray;
+        position: relative;
+        right: 20px;
+       top: 30px;
+    }
+    #email{
+        font-size: 30px;
+        color: gray;
+        position: relative;
+        right: 20px;
+       top: 30px;
+    }
+    #one-p{
+        position: relative;
+        top: 60px;
+        right: 100px;
+        font-weight: lighter
+    }
+    #two-p{
+        position: relative;
+        top: 60px;
+        right: 20px;
+        font-weight: lighter;
+    }
+    #three-p{
+        position: relative;
+        top: 60px;
+        right: 40px;
+        font-weight: lighter;
+    }
+#one-p, #two-p, #three-p:hover{
+    color: green;
+    cursor: pointer;
+}
+.txt-email{
+    margin-top: 100px;
+margin-left: 150px;
+}
+#txt{
+    width: 650px;
+    height: 40px;
+    padding-left: 30px;
+}
+#sub{
+    width: 1300px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+    left: 150px;
+    padding-left: 30px;
+}
+#em{
+    width: 650px;
+    height: 40px;
+    padding-left: 30px;
+}
+#message{
+    width: 1300px;
+    height: 150px;
+    position: relative;
+    top: 30px;
+    left: 150px;
+    padding-left: 30px;
+    padding-bottom: 70px;
+}
+#btn{
+    width: 160px;
+    height: 50px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(14, 203, 14);
+    border: none;
+    position: relative;
+    top: 60px;
+    left: 45%;
+    }
+    #btn:hover{
+        background-color: white;
+        border: 2px solid green;
+        cursor: pointer;
+        color: green;
+    }
+    .down-div{
+        background-color: lightgray;
+        height: 60px;
+       text-align: center;
+       padding-top: 10px;
+       margin-top: 100px;
+    }
+    #nav-btn{
+        width: 160px;
+        height: 40px;
+        color: white;
+        font-weight: bolder;
+        background-color: rgb(14, 203, 14);
+        border: none;
+        position: relative;
+        left: 600px;
+        top: 5px;
+        }
+        #nav-btn:hover{
+            background-color: white;
+            border: 2px solid green;
+            color: black;
+            cursor: pointer;
+        }
+        #contact-h1{
+            animation-name: leftToRight;
+            animation-duration: 1s;
+            animation-direction: reverse;
+            }
+            @keyframes leftToRight {
+                from{
+                  margin-left: 0px;  
+                }
+                to{
+                    margin-left: 1150px;
+                }
+            }
